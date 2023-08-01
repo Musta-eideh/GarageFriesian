@@ -1,6 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from './components/pages/Home'
+import Container from './components/layout/Container'
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+
+import Home from './components/pages/Home';
 import Educacao from './components/pages/Educacao';
 import Categoria from './components/pages/Categoria';
 import Blog from './components/pages/Blog';
@@ -10,23 +14,20 @@ function App() {
   return (
     <Router>
 
-      <div>
-        <Link to="/">Home</Link>
-        <Link to="/educacao">Educação</Link>
-        <Link to="/categoria">Categoria</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/sobrenos">Sobre Nos</Link>
-      </div>
+      <Navbar />
 
-      <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route path="/educacao" element={<Educacao/>} />
-        <Route path="/categoria" element={<Categoria/>} />
-        <Route path="/blog" element={<Blog/>} />
-        <Route path="/sobrenos" element={<SobreNos/>} />
-      </Routes>
+      <Container customClass="min-height">
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/educacao" element={<Educacao/>} />
+          <Route path="/categoria" element={<Categoria/>} />
+          <Route path="/blog" element={<Blog/>} />
+          <Route path="/sobrenos" element={<SobreNos/>} />
+        </Routes>
+      
+      </Container>
 
-      <p>Footer</p>
+      <Footer />
       
     </Router>
   );
