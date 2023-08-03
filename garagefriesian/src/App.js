@@ -5,9 +5,9 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
 import Home from './components/pages/Home';
-import Educacao from './components/pages/Educacao';
-import Categoria from './components/pages/Categoria';
-import Blog from './components/pages/Blog';
+import Educacao from './components/pages/Educacao/Educacao';
+import Categoria from './components/pages/Categoria/Categoria';
+import Blog from './components/pages/Blog/Blog';
 import SobreNos from './components/pages/SobreNos';
 
 function App() {
