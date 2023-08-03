@@ -76,6 +76,37 @@ img{
     gap: 25px;
 }
 
+.outlineright{
+    margin-left: auto;
+    color: #F5F4F4;
+}
+
+ul.childrenlist {
+    display: none;
+    flex-wrap: wrap;
+}
+
+/* Estilos para mostrar os children quando o pai estiver em estado de hover*/
+li:hover ul.childrenlist{
+    background-color: #080702;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    column-gap: 10px;
+    justify-content: center;
+    position: fixed;
+    left: 250px;
+    transition: 850ms;
+    border: 1px solid #F3F30A;
+}
+
+.childrenlist{
+    columns: 2;
+    column-gap: 10px;
+}
+
 .navbartoggle {
     display: flex;
     background-color: #080702;
