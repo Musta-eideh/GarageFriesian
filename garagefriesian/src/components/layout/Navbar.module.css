@@ -1,6 +1,6 @@
 .navbar {
     background-color: #080702;
-    height: 80px;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,18 +9,17 @@
 
 .menubars {
     margin-left: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: none;
 }
 
 .logo{
-    justify-content: center;
     display: flex;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
     background-color: #F3F30A;
-    width: 120px;
+    max-width: 120px;
     color: #080702;
     gap: 5px;
     border-radius: 6px;
@@ -150,4 +149,20 @@ svg{
 
 span {
     margin-left: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 15vh;
+        flex-direction: column;
+    }
+
+    .menubars {
+        margin-left: 1rem;
+    }
+
+    .logo {
+        max-width: 120px;
+    }
 }

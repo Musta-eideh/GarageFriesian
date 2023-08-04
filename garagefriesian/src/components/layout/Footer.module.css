@@ -1,0 +1,36 @@
+.containerFooter{
+    background-color: #080702;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.footerContent{
+    font-size: 1.5rem;
+    color: #F5F4F4;
+    text-decoration: none;
+}
+
+.email{
+    color:#F5F4F4;
+}
+
+.subfooter{
+    background-color: #F3F30A;
+    justify-content: space-between;
+    min-height: 5vh;
+}
+
+@media screen and (max-width: 768px) {
+    .containerFooter {
+        height: auto; /* Permita que o footer cresça conforme o conteúdo */
+    }
+
+    /* Adicione estilos adicionais ou modificações para elementos específicos dentro do footer */
+    .footerContent {
+        font-size: 1rem;
+    }
+}
