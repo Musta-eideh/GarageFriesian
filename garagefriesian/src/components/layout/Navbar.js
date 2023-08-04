@@ -60,7 +60,6 @@ const Navbar = () => {
             </div>
           <p className={styles.logop}>F</p>
         </div>
-
       </div>
 
       <nav className={`${styles.navmenu} ${sidebar ? styles.active : ""}`}>

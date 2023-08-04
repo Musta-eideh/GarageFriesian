@@ -13,7 +13,7 @@ export const SidebarData = [
         children: [
             {
                 title: 'Motor e mecânica',
-                path: '/',
+                path: './../pages/Educacao/MotorEMecanica/MotorEMecanica.js',
                 cName: styles.navtext
             },
             {
