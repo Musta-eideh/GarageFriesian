@@ -2,14 +2,35 @@
     background-color: #080702;
     height: 80px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
 
 .menubars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    background-color: #F3F30A;
+    width: 120px;
+    color: #080702;
+    gap: 5px;
+    border-radius: 6px;
+}
+
+.logop {
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    font-size: 29px;
+    margin: 0px 10px;
 }
 
 img{
@@ -64,7 +85,11 @@ img{
     border-radius: 4px;
 }
 
-.navtext a:hover {
+i>svg{
+    color: #F5F4F4;
+}
+
+.navtext a:hover{
     background-color: #F3F30A;
     color: #080702;
 }
@@ -80,6 +105,7 @@ img{
     margin-left: auto;
     color: #F5F4F4;
 }
+
 
 ul.childrenlist {
     display: none;

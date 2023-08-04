@@ -53,6 +53,14 @@ const Navbar = () => {
         <Link to="#" className={styles.menubars}>
           <FaBars onClick={showSidebar} />
         </Link>
+        <div className={styles.logo}>
+          <p className={styles.logop}>G </p> 
+            <div className={styles.logomenor}>
+              <img src={horse} alt="Logo fundo amarelo" /> 
+            </div>
+          <p className={styles.logop}>F</p>
+        </div>
+
       </div>
 
       <nav className={`${styles.navmenu} ${sidebar ? styles.active : ""}`}>
@@ -64,7 +72,7 @@ const Navbar = () => {
           </div>
 
           <div className={styles.logomenor}>
-            <img src={horse} alt="Logo" /> {/* Adicione um atributo alt para a imagem */}
+            <img src={horse} alt="Logo fundo amarelo" /> 
           </div>
 
           {renderSidebarItems()}
