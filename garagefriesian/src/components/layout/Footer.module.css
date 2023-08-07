@@ -1,36 +1,57 @@
-.containerFooter{
+.footer{
     background-color: #080702;
-    min-height: 20vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
-    margin-bottom: 0;
+    gap: 10px;
 }
 
-.footerContent{
-    font-size: 1.5rem;
-    color: #F5F4F4;
+.footerContent > ul {
+    display: flex;
+    font-size: 2rem;
+    list-style: none;
+    padding: 3rem;
+}
+
+.containerFooter > .division{
+    border-left: 1px solid #f5f4f4;
+    height: 4rem;
+    margin: 0 20px;
+}
+
+.email > a{
     text-decoration: none;
-}
-
-.email{
-    color:#F5F4F4;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    color: #F5F4F4;
 }
 
 .subfooter{
     background-color: #F3F30A;
+    display: flex;
+    font-size: 0.8rem;
+    color:#080702;
     justify-content: space-between;
-    min-height: 5vh;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-    .containerFooter {
-        height: auto; /* Permita que o footer cresça conforme o conteúdo */
+    .containerFooter{
+        flex-direction: column;
     }
-
-    /* Adicione estilos adicionais ou modificações para elementos específicos dentro do footer */
-    .footerContent {
-        font-size: 1rem;
+    .footerContent > ul{
+        padding: 1rem;
+    }
+    .email > a{
+        margin-bottom: 2rem;
+    }
+    .containerFooter > .division{
+        display: none;
     }
 }

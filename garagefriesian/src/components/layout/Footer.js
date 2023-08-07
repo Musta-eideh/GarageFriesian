@@ -17,8 +17,12 @@ function Footer() {
           </ul>
         </div>
 
+        <div className={styles.division}></div>
+
         <div className={styles.email}>
+            <a href="garagefriesian@hotmail.co">
             <AiOutlineMail/><p>garagefrieisan@hotmail.com</p>
+            </a>
         </div>
       </div>
 

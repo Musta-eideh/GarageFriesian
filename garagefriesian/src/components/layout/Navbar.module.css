@@ -1,6 +1,5 @@
 .navbar {
     background-color: #080702;
-    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,7 +153,6 @@ span {
 
 @media screen and (max-width: 768px) {
     .navbar {
-        height: 15vh;
         flex-direction: column;
     }
 
