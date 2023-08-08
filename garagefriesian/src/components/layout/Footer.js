@@ -11,9 +11,9 @@ function Footer() {
       <div className={styles.containerFooter}>
         <div className={styles.footerContent}>
           <ul>
-            <li><CiTwitter /></li>
-            <li><AiOutlineInstagram /></li>
-            <li><PiTiktokLogoBold /></li>
+            <li><a href="https://twitter.com/garagefriesian"><CiTwitter /></a></li>
+            <li><a href="https://www.instagram.com/garagefriesian/"><AiOutlineInstagram /></a></li>
+            <li><a href="https://www.tiktok.com/@garage_friesian"><PiTiktokLogoBold /></a></li>
           </ul>
         </div>
 
