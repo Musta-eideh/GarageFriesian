@@ -1,0 +1,10 @@
+.containerHome{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slideItem{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
