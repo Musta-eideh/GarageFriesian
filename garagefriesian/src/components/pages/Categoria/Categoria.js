@@ -1,10 +1,12 @@
-
+import React from "react";
+import TitleH1 from "../../layout/TitleH1";
+import Container from "../../layout/Container";
 
 function Categoria() {
     return(
-        <div>
-            <h1>Categoria</h1>
-        </div>
+        <Container>
+            <TitleH1>CATEGORIAS DE VEÍCULOS</TitleH1>
+        </Container>
     )
 }
 

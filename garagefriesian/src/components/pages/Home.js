@@ -1,5 +1,7 @@
 import styles from './Home.module.css';
 
+import Categoria from '../pages/Categoria/Categoria';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { register } from 'swiper/element/bundle'
 import 'swiper/css'
@@ -34,6 +36,7 @@ function Home() {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            <Categoria />
         </div>
     )
 }
