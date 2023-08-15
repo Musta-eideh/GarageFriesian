@@ -51,3 +51,10 @@ button:hover{
     border: 1px solid #080702;
     background-color: #fcfc05;
 }
+
+@media screen and (max-width: 768){
+    .inputGeral{
+        display: flex;
+        flex-direction: column;
+    }
+}
