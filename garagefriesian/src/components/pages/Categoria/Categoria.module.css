@@ -1,0 +1,10 @@
+.containerCategorias{
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.subtitle{
+    border: 2px solid black;
+    background-color: yellow;
+}
